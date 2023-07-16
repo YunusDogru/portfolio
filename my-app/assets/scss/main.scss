@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    background-color: rgb(22,22,22);
+}
+@media (max-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1000px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+    html {
+        font-size: 10px;
+    }
+}
+.wrapper {
+    width: 100vw;
+    background-color: rgb(22,22,22);
+    background-image: url("../img/bg.svg");
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.animFadeBottom, .animFadeIn, .animGrowUp, .animFadeRight {
+    opacity: 0;
+}
+.shake {
+    animation: shake 0.7s ease-in-out;
+    animation-delay: 3s;
+    
+}
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0) scale(1) translateY(0) rotate(0);
+    }
+    10%,30%,50%,70%,90% {
+        transform: translateX(5px) scale(2) translateY(-5px) rotate(10deg);
+
+    }
+    20%,40%,60%,80% {
+        transform: translateX(-5px) scale(2) translateY(-5px) rotate(-10deg);
+    }
+}
+.fadeBottom {
+    animation: fadeBottom 0.5s ease-out;
+    animation-fill-mode: both;
+}
+@keyframes fadeBottom {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.fadeRight{
+    animation: fadeRight 0.5s ease-out;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+@keyframes fadeRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1 !important;
+    }
+}
+.fadeIn {
+    animation: fadeIn 0.5s ease-out;
+    animation-fill-mode: both;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.growUp {
+    animation: growUp 0.5s ease-out;
+    animation-fill-mode: both;
+}
+@keyframes growUp {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
