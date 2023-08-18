@@ -2,7 +2,7 @@
   <div class="wrapper">
     <Navbar/>
     <Home/> 
-    <About class="target" v-motion-slide-visible-once-right/>
+    <About class="target"/>
     <Services/>
     <Contact/>
     <ScrollReveal/>
