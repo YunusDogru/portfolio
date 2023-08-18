@@ -11,7 +11,7 @@
             <p class="about-text animFadeRight">
                 I excel at creating impactful user interfaces that enhance the user experience. I enjoy collaborating with designers and backend developers to transform ideas into visually stunning and intuitive interfaces. My goal is to deliver seamless user experiences through responsive layouts, interactive elements, and smooth animations.
             </p><br>
-            <p class="about-text animFadeRight">If you'd like to check out some of my projects, you can find them on my <a target="_blank" href="https:github.com/YunusDogru">GitHub.</a></p>
+            <p class="about-text animFadeRight">If you'd like to check out some of my projects, you can find them on my <a target="_blank" href="https://github.com/YunusDogru">GitHub.</a></p>
             <br>
             <p class="about-text animFadeRight">For a glimpse into my work and personal projects, feel free to visit my <a target="_blank" href="https://instagram.com/_yunusdogru">Instagram.</a></p>
         </div>
