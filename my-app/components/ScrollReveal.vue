@@ -9,8 +9,6 @@ onMounted(()=>{
     entries.forEach(entry => {
       if(entry.isIntersecting) {
         entry.target.classList.add('fadeBottom')
-      } else if (!entry.isIntersecting) {
-        entry.target.classList.remove('fadeBottom')
       }
     })
   }
@@ -18,8 +16,6 @@ onMounted(()=>{
     entries.forEach(entry => {
       if(entry.isIntersecting) {
         entry.target.classList.add('fadeRight');
-      } else if (!entry.isIntersecting) {
-        entry.target.classList.remove('fadeRight');
       }
     })
   }
@@ -27,8 +23,6 @@ onMounted(()=>{
     entries.forEach(entry => {
       if(entry.isIntersecting) {
         entry.target.classList.add('fadeIn')
-      } else if (!entry.isIntersecting) {
-        entry.target.classList.remove('fadeIn')
       }
     })
   }
@@ -36,8 +30,6 @@ onMounted(()=>{
     entries.forEach(entry => {
       if(entry.isIntersecting) {
         entry.target.classList.add('growUp')
-      } else if (!entry.isIntersecting) {
-        entry.target.classList.remove('growUp')
       }
     })
   }
@@ -45,8 +37,6 @@ onMounted(()=>{
     entries.forEach(entry => {
       if(entry.isIntersecting) {
         entry.target.classList.add('shake')
-      } else if (!entry.isIntersecting) {
-        entry.target.classList.remove('shake')
       }
     })
   }
